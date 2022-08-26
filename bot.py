@@ -171,8 +171,8 @@ async def on_command_error(context: Context, error) -> None:
         the @checks.not_blacklisted() check in your command, or you can raise the error by yourself.
         """
         embed = discord.Embed(
-            title="Error!",
-            description="You are blacklisted from using the bot.",
+            title="bitch fuck you",
+            description="your gonna get fucked in 23 secs.", #the mf will get fucked :)
             color=0xE02B2B
         )
         await context.send(embed=embed)
